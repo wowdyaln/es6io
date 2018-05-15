@@ -1,0 +1,68 @@
+
+00 - getting setup 
+01 - var Scoping Refresher 
+02 - let VS const 
+03 - let and const in the Real World 
+04 - Temporal Dead Zone 
+06 - Arrow Functions Introduction 
+07 - More Arrow Function Examples 
+08 - Arrow Functions and `this` 
+09 - Default Function Arguments 
+10 - When NOT to use an Arrow Function 
+11 - Arrow Functions Exercises 
+12 - Template Strings Introduction 
+13 - Creating HTML fragments with Template Literals 
+14 - Tagged Template Literals 
+15 - Tagged Templates Exercise 
+16 - Santizing User Data with Tagged Templates 
+17 - New String Methods 
+18 - Destructuring Objects
+19 - Destructing Arrays 
+20 - Swapping Variables with Destructuring 
+21 - Destructuring Functions - Multiple returns and named defaults 
+22 - The for of Loop in Action 
+22 - The for of loop 
+23 - Using for in with Objects 
+25 - Array.from() and Array.of() 
+26 - Array. find() and .findIndex() 
+27 - Array .some() and .every() 
+28 - Spread Operator Introduction 
+29 - Spread Exercise 
+30 - More Spread Examples 
+31 - Spreading into a function 
+32 - The ...rest param in Functions and destructuring 
+33 - Object Literal Upgrades 
+34 - Promises 
+35 - Building your own Promises
+36 - Chaining Promises + Flow Control 
+37 - Working with Multiple Promises 
+38 - Symbols 
+39 - Code Quality with ESLint 
+40 - Airbnb ESLint Settings 
+41 - Line and File Specific Settings 
+42 - ESLint Plugins 
+43 - ESLint inside Atom and Sublime Text 
+44 - Only Allow ESLint Passing Code into your git repos 
+45 - JavaScript Modules and WebPack 2 Tooling Setup 
+46 - Creating your own Modules 
+47 - More ES6 Module Practice 
+48 - Tool-Free Modules with SystemJS (+bonus BrowserSync setup) 
+49 - All About Babel + npm scripts 
+50 - Polyfilling ES6 for Older Browsers 
+51 - Prototypal Inheritance Review 
+52 - Classes
+53 - Extending Classes and using super() 
+54 - Extending Arrays with Classes for Custom Collections 
+55 - Generators 
+56 - Using Generators for Ajax Flow Control 
+57 - Looping Generators with for of 
+58 - Proxies 
+59 - Another Proxy Example 
+60 - Using Proxies to comat silly errors 
+61 - Sets 
+62 - Understanding Sets with Brunch 
+63 - WeakSets 
+64 - Maps 
+65 - Map Metadata with DOM Node Keys 
+66 - WeakMap and Garbage Collection
+

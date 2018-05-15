@@ -32,17 +32,32 @@
 <script>
 
   // Select all the list items on the page and convert to array
+let a = [...document.querySelectorAll('li')]
+// 要選擇某個 attribute , 用 '[data-time]' 這樣就好了
+let x = document.querySelectorAll('[data-time]')
 
   // Filter for only the elements that contain the word 'flexbox'
+let b = a.filter((ele) => ele.innerText == 'Flexbox Video')
+// 使用 .includes ; ele.innerText.includes('Flexbox')
 
   // map down to a list of time strings
-
+let c = b.map( ele => ele.dataset.time)
   // map to an array of seconds
-
+let d = c.map( time => {
+  const part = time.split(':').map( scd => Number(scd))
+  return (part[0] * 60) + part[1]
+  })
   // reduce to get total
-
+let e = d.reduce((current, next) => current + next)
   // 🔥 This can also be done in a single .reduce(), but we're practicing arrow functions here, so chain them!
-
+let totalTime = [...document.querySelectorAll('li')]
+          .filter((ele) => ele.innerText == 'Flexbox Video')
+          .map(ele => ele.dataset.time)
+          .map( time => {
+                        const part = time.split(':').map(scd => Number(scd))
+                        return (part[0] * 60) + part[1]
+                        })
+          .reduce((current, next) => current + next)
 </script>
 </body>
 </html>

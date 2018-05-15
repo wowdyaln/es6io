@@ -11,7 +11,7 @@
     <p>Randy</p>
   </div>
 <script>
-  const people = Array.from(document.querySelectorAll('.people p'));
+  const people = [...document.querySelectorAll('.people p')];
   const names = people.map((person) => person.textContent );
 
   const deepDish = {
